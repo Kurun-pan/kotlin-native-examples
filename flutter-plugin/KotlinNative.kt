@@ -1,7 +1,7 @@
-package example
+package KotlinNative
 
 object Object {
-  val pluginName = "Example for Framework"
+  val pluginName = "KotlinNative for Framework"
 }
 
 val globalString = "A global String"

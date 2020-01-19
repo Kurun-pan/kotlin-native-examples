@@ -1,7 +1,7 @@
-all: example
+all: KotlinNative
 
-example: example.kt
-	kotlinc-native -o example example.kt -Werror -produce framework
+KotlinNative: KotlinNative.kt
+	kotlinc-native -o KotlinNative KotlinNative.kt -Werror -p framework
 
 clean:
 	rm -rf *.framework
