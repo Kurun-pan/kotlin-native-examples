@@ -21,10 +21,11 @@ $ export PATH=$PATH:/usr/local/kotlin-native/bin/
 
 print "Hello, World!"
 
-### mix-cc-kotlin
+### interop-cc-kotlin
 
 Example that call Kotlin/Native library from C++ source code
+
+### interop-cc-swift
 
-### flutter-plugin
-
-Example of build for Flutter plugin
+Example that call Kotlin/Native library from Swift source code
+
