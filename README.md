@@ -3,7 +3,7 @@ Kotlin/Native examples
 
 ## Environment Setup
 
-### Kotlin/Native Compiler Install
+### Kotlin/Native Compiler Install without Gradle
 
 #### macOS
 
@@ -17,15 +17,18 @@ $ export PATH=$PATH:/usr/local/kotlin-native/bin/
 
 ## Examples
 
-### hello-world	
+### hello-world
 
 print "Hello, World!"
 
 ### interop-cc-kotlin
 
 Example that call Kotlin/Native library from C++ source code
-
+
 ### interop-cc-swift
 
 Example that call Kotlin/Native library from Swift source code
-
+
+### cinterop-sample
+
+Example for cinterop of macOS's OSLog
