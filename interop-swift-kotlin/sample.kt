@@ -1,7 +1,7 @@
-package utility
+package sample
 
 object Object {
-  val pluginName = "Utility"
+  val pluginName = "Sample"
 }
 
 val globalString = "A global String"

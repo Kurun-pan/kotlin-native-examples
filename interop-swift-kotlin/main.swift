@@ -1,11 +1,11 @@
 import Foundation
-import utility
+import sample
 
 // echo string
-print(UtilityKt.echo(str:"hello, world!") ?? "nill")
+print(SampleKt.echo(str:"hello, world!") ?? "nill")
 
 // access global value
-print(UtilityKt.globalString)
+print(SampleKt.globalString)
 
 // access Object
 print(Object().pluginName)

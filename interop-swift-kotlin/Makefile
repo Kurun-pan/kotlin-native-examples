@@ -2,15 +2,15 @@ CC=clang++
 TARGET=interop-swift-kotlin
 
 .PHONY: all
-all: utility $(TARGET)
+all: sample $(TARGET)
 
-.PHONY: utility
-utility: utility.kt
-	kotlinc-native -o utility utility.kt -Werror -p framework
+.PHONY: sample
+sample: sample.kt
+	kotlinc-native -o sample sample.kt -Werror -p framework
 
 .PHONY: $(TARGET)
-$(TARGET): main.swift utility
-	swiftc -o $(TARGET) main.swift -F . -framework utility
+$(TARGET): main.swift sample
+	swiftc -o $(TARGET) main.swift -F . -framework sample
 
 clean:
 	rm -rf $(TARGET) *.framework
