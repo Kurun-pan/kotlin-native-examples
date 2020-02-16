@@ -12,4 +12,4 @@ print(Object().pluginName)
 
 // Rational
 let ktRational = Rational(numerator:4, denominator:2)
-print("result = \(ktRational.result as Optional)")
+print("result = \(ktRational.result())")
